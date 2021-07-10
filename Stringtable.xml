@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="JZ's Artillery Support System">
+	<Package name="Mission One">
+		<Key ID="STR_JZASS_Header">
+			<Original>JZ's ArtySupportSystem Commander Panel</Original>
+			<English>JZ's ArtySupportSystem Commander Panel</English>
+			<Russian>Панель командира системы артиллерийской поддержки</Russian>
+			<Chinesesimp>JZ的火炮支援系统 指挥员面板</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Version">
+			<Original>Ver 1.0.0 	</Original>
+		</Key>
+		<Key ID="STR_JZASS_Ammo">
+			<Original>Ammo</Original>
+			<English>Ammo</English>
+			<Russian>Боеприпасы</Russian>
+			<Chinesesimp>弹药</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Round">
+			<Original>Round</Original>
+			<English>Round</English>
+			<Russian>Раунда</Russian>
+			<Chinesesimp>轮次</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_ArtyNumber">
+			<Original>ArtyNumber</Original>
+			<English>ArtyNumber</English>
+			<Russian>Количество артиллерии</Russian>
+			<Chinesesimp>火炮数量</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_AmmoInformation">
+			<Original>Ammo Information</Original>
+			<English>Ammo Information</English>
+			<Russian>Боеприпасы</Russian>
+			<Chinesesimp>弹药信息</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Caliber">
+			<Original>Caliber(mm)</Original>
+			<English>Caliber(mm)</English>
+			<Russian>Калибр (мм)</Russian>
+			<Chinesesimp>口径(mm)</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Dispersion">
+			<Original>Dispersion(m)</Original>
+			<English>Dispersion(m)</English>
+			<Russian>Дисперсия(м)</Russian>
+			<Chinesesimp>分散(m)</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_TotalShells">
+			<Original>Total Shells</Original>
+			<English>Total Shells</English>
+			<Russian>Общий боекомплект</Russian>
+			<Chinesesimp>发射弹药总数</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Broadcast">
+			<Original>Broadcast</Original>
+			<English>Broadcast</English>
+			<Russian>Транслировать</Russian>
+			<Chinesesimp>阵营广播</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_About">
+			<Original>About</Original>
+			<English>About</English>
+			<Russian>о</Russian>
+			<Chinesesimp>约</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_AAS">
+			<Original>Assist Aiming System(Get Grid)</Original>
+			<English>Assist Aiming System(Get Grid)</English>
+			<Russian>Вспомогательная система прицеливания (получение координат)</Russian>
+			<Chinesesimp>辅助瞄准系统（获取坐标）</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_RemainAmmo">
+			<Original>Remain Ammo</Original>
+			<English>Remain Ammo</English>
+			<Russian>Остаток боеприпасов</Russian>
+			<Chinesesimp>剩余弹药</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Grid8">
+			<Original>Grid8</Original>
+			<English>Grid8</English>
+			<Russian>Сетка8</Russian>
+			<Chinesesimp>8位网格坐标</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Category">
+			<Original>Category</Original>
+			<English>Category</English>
+			<Russian>Категория</Russian>
+			<Chinesesimp>类别</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Exit">
+			<Original>Exit</Original>
+			<English>Exit</English>
+			<Russian>Выход</Russian>
+			<Chinesesimp>退出</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Request">
+			<Original>Request</Original>
+			<English>Request</English>
+			<Russian>Запрос</Russian>
+			<Chinesesimp>请求射击</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_HelpAbout">
+			<Original>Help and About</Original>
+			<English>Help and About</English>
+			<Russian>Помощь и О</Russian>
+			<Chinesesimp>帮助和关于</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_ByMap">
+			<Original>ByMap</Original>
+			<English>ByMap</English>
+			<Russian>По карте</Russian>
+			<Chinesesimp>地图上指示</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_BySight">
+			<Original>BySight</Original>
+			<English>BySight</English>
+			<Russian>Визуально</Russian>
+			<Chinesesimp>目视</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_CTOM">
+			<Original>Check Target On Map</Original>
+			<English>Check Target On Map</English>
+			<Russian>Проверить цель на карте</Russian>
+			<Chinesesimp>在地图上检查目标</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Refresh">
+			<Original>Refresh</Original>
+			<English>Refresh</English>
+			<Russian>Обновить</Russian>
+			<Chinesesimp>刷新</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_GetGrid8">
+			<Original>GetGrid8</Original>
+			<English>GetGrid8</English>
+			<Russian>Обновить</Russian>
+			<Chinesesimp>获得8位坐标</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_correctAmmo">
+			<Original>Please Select the Correct Ammo</Original>
+			<English>Please Select the Correct Ammo</English>
+			<Russian>Пожалуйста, выберите правильный боеприпас</Russian>
+			<Chinesesimp>请选择正确的弹药</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_correctGrid">
+			<Original>Please Input the Correct Grid(8 digital)</Original>
+			<English>Please Input the Correct Grid(8 digital)</English>
+			<Russian>Пожалуйста, введите правильную сетку (8 цифр)</Russian>
+			<Chinesesimp>请输入正确的8位坐标</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Launched">
+			<Original>Launched</Original>
+			<English>Launched</English>
+			<Russian>Запущен</Russian>
+			<Chinesesimp>发射完毕</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Broadcast1">
+			<Original>Copy That,Grid</Original>
+			<English>Copy That,Grid</English>
+			<Russian>Скопируйте это, сетка</Russian>
+			<Chinesesimp>收到 坐标</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Broadcast2">
+			<Original>,Launching </Original>
+			<English>,Launching </English>
+			<Russian>, Запуск</Russian>
+			<Chinesesimp>,发射</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Broadcast3">
+			<Original>,Round:</Original>
+			<English>,Round:</English>
+			<Russian>,Круглый:</Russian>
+			<Chinesesimp>,轮次:</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Broadcast4">
+			<Original>,Arty Count: </Original>
+			<English>,Arty Count: </English>
+			<Russian>, Артиллерия графа:</Russian>
+			<Chinesesimp>,火炮数量</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Broadcast5">
+			<Original>second. </Original>
+			<English>second. </English>
+			<Russian>секунда.</Russian>
+			<Chinesesimp>秒。</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Broadcast2">
+			<Original>,Launching </Original>
+			<English>,Launching </English>
+			<Russian>, Запуск</Russian>
+			<Chinesesimp>,发射</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_implemented">
+			<Original>Function not implemented </Original>
+			<English>Function not implemented </English>
+			<Russian>Функция не реализована</Russian>
+			<Chinesesimp>功能未实现</Chinesesimp>
+		</Key>
+		
+	</Package>
+</Project>

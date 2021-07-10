@@ -1,0 +1,6 @@
+#include "ArtySupportSystem\diaglog\diaglog.hpp"
+
+class CfgFunctions
+{
+	#include "ArtySupportSystem\functions\CfgFunctions.hpp"
+};

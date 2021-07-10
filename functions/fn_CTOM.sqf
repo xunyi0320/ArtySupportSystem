@@ -1,0 +1,1 @@
+hint (Localize 'STR_JZASS_implemented')
