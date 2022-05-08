@@ -32,3 +32,17 @@ _number = parseNumber _number;
 _ctrl = _display displayCtrl 1903;//Total
 _ctrl ctrlSetText str(_number*_round);
 
+_display = findDisplay 2900;
+
+_ctrl = _display displayCtrl 1701;//chatmod
+localNamespace setVariable ["JZ_ASS_Memory_chatmod",cbChecked _ctrl];
+
+_ctrl = _display displayCtrl 1702;//ammo
+localNamespace setVariable ["JZ_ASS_Memory_ammo",lbSelection _ctrl];
+
+
+_ctrl = _display displayCtrl 1703;//round
+localNamespace setVariable ["JZ_ASS_Memory_round",ctrlText _ctrl];
+
+_ctrl = _display displayCtrl 1704; //number 
+localNamespace setVariable ["JZ_ASS_Memory_number",ctrlText _ctrl];

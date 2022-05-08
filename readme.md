@@ -1,3 +1,10 @@
+# version 1.0.5   
++
+优化了一下代码，现在可以在输入一堆参数后使用aas了。  
+一并上传了mod需要的init.sqf和config.cpp
+
+###### 请注意：入口修正为 [] spawn JZASS_fnc_initASSCP;  
+###### 请注意：入口修正为 [] spawn JZASS_fnc_initASSCP;  
 # version 1.0.0  
 
 ### 今朝的火炮支援系统  

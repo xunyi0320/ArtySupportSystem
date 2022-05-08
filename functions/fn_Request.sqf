@@ -6,8 +6,8 @@ _grid8 = ctrlText _ctrl;
 _pos = _grid8 call JZASS_fnc_Grid8Topos;
 //debug
 
-if ((parseNumber _grid8 >99999999)||(_grid8 isEqualTo "00000000")) exitwith {
-	_text = localize "STR_JZASS_correctAmmo";
+if (!((count _grid8) == 8)||(_grid8 isEqualTo "00000000")) exitwith {
+	_text = localize "STR_JZASS_correctGrid";
 	hint _text};
 
 _ctrl = _display displayCtrl 1702;
@@ -17,14 +17,13 @@ if (_ammoselect isEqualTo []) then {
 };
 _ammoselect = _ammoselect#0;
 
-if (_ammoselect == 0) exitwith {_text = localize "STR_JZASS_correctGrid"; hint _text;};
+if (_ammoselect == 0) exitwith {_text = localize "STR_JZASS_correctAmmo"; hint _text;};
 
 _ETAArray = AtryETA select _ammoselect;
 _dispersion = AtryDispersion select _ammoselect;
 _bulletClass = AtryClassName select _ammoselect;
 _interval = AtryInterval select _ammoselect;
 
-diag_log _dispersion;
 _ctrl = _display displayCtrl 1703; //Round 
 _round = ctrlText _ctrl;
 _round = parseNumber _round;
@@ -33,7 +32,6 @@ _ctrl = _display displayCtrl 1704; //Number
 _number = ctrlText _ctrl;
 _number = parseNumber _number;
 
-diag_log _number;
 
 _btext=AtryCategory select _ammoselect;
 _caliber = AtryCaliber select _ammoselect;

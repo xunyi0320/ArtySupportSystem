@@ -12,9 +12,7 @@ MEH =  nil;
 openMap false;
 
 _pos = localNamespace getVariable["JZ_ASS_MapPos",[0,0,0]];
-
 localNamespace setVariable["JZ_ASS_MapPos",nil];
+
 _grid8 = _pos call JZASS_fnc_posToGrid8;
-localNamespace setVariable["JZ_ASS_Grid8",_grid8]; 
-localNamespace setVariable["JZ_ASS_UsedAAS",true]; 
-createDialog "JZ_ASS_CommanderPanel";
+_grid8 spawn JZASS_fnc_initASSCP;

@@ -57,3 +57,5 @@ AtryCategory = ["-"];
 {
 	AtryCategory pushBack (_x#6);	
 } forEach ArtyAmmoList;
+
+player addAction [localize "STR_JZASS_OpenASS",{[] spawn JZASS_fnc_initASSCP;}];

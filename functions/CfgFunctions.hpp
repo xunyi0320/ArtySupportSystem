@@ -4,8 +4,8 @@ class JZASS
 	class InititalFunction
 	{
 		class initASSCP {};
-		class initASSCPLBAdd {};
 		class initASSCPInfoReflash {};
+		class closeAASCP {};
 	};
 	class AASFunction
 	{

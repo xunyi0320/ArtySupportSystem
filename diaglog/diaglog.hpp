@@ -11,7 +11,7 @@ class JZ_ASS_CommanderPanel
 {
 	idd = 2900;
 	movingEnable = true ; 
-	onload = "[] spawn JZASS_fnc_initASSCP";
+	//onload = "[] spawn JZASS_fnc_initASSCP";
 	class ControlsBackground
 	{
 		class textBackground: RscASSText
@@ -209,7 +209,7 @@ class JZ_ASS_CommanderPanel
 		class buttonExit: RscASSButton
 		{
 			idc = 1600;
-			onButtonClick = "closeDialog 2900";
+			onButtonClick = "[] spawn JZASS_fnc_closeAASCP";
 
 			text = "$STR_JZASS_Exit"; //--- ToDo: Localize;
 			x = 29 * GUI_GRID_W + GUI_GRID_X;
@@ -287,7 +287,6 @@ class JZ_ASS_CommanderPanel
 		class inputGrid8: RscASSEdit
 		{
 			idc = 1700;
-
 			text = "12345678"; //--- ToDo: Localize;
 			x = 14.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 4 * GUI_GRID_H + GUI_GRID_Y;
@@ -298,7 +297,7 @@ class JZ_ASS_CommanderPanel
 		class checkboxChatmod: RscASSCheckBox
 		{
 			idc = 1701;
-
+			onCheckedChanged = "[]spawn JZASS_fnc_initASSCPInfoReflash";
 			x = 14.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 15 * GUI_GRID_H + GUI_GRID_Y;
 			w = 1 * GUI_GRID_W;
@@ -309,7 +308,6 @@ class JZ_ASS_CommanderPanel
 		{
 			idc = 1702;
 			onLBSelChanged = "[]spawn JZASS_fnc_initASSCPInfoReflash";
-
 			x = 8 * GUI_GRID_W + GUI_GRID_X;
 			y = 9 * GUI_GRID_H + GUI_GRID_Y;
 			w = 13 * GUI_GRID_W;

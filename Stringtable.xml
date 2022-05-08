@@ -8,7 +8,7 @@
 			<Chinesesimp>JZ的火炮支援系统 指挥员面板</Chinesesimp>
 		</Key>
 		<Key ID="STR_JZASS_Version">
-			<Original>Ver 1.0.0 	</Original>
+			<Original>Ver 1.0.6 	</Original>
 		</Key>
 		<Key ID="STR_JZASS_Ammo">
 			<Original>Ammo</Original>
@@ -195,6 +195,60 @@
 			<English>Function not implemented </English>
 			<Russian>Функция не реализована</Russian>
 			<Chinesesimp>功能未实现</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_OpenASS">
+			<Original>Open ASS</Original>
+			<English>Open ASS</English>
+			<Russian>Открыть САП</Russian>
+			<Chinesesimp>打开ASS指挥员面板</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_thirdass">
+			<Original>3rd Arty Support Squad</Original>
+			<English>3rd Arty Support Squad</English>
+			<Russian>3-я отряд артиллерийской поддержки</Russian>
+			<Chinesesimp>第三火炮支援小队</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_secondasbhe">
+			<Original>2nd Arty Battalion(HE)</Original>
+			<English>2nd Arty Battalion(HE)</English>
+			<Russian>2-я артиллерийская батальона(фугасный)</Russian>
+			<Chinesesimp>第二炮兵营(HE)</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_secondasbsmoke">
+			<Original>2nd Arty Battalion(Smoke)</Original>
+			<English>2nd Arty Battalion(Smoke)</English>
+			<Russian>2-я артиллерийская батальона(дымовая)</Russian>
+			<Chinesesimp>第二炮兵营(烟雾)</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_secondasbpg">
+			<Original>2nd Artillery Battalion (Precision Guidance)</Original>
+			<English>2nd Artillery Battalion (Precision Guidance)</English>
+			<Russian>2-я артиллерийская батальона(точное наведение)</Russian>
+			<Chinesesimp>第二炮兵营(精确制导)</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_thirdgmb">
+			<Original>3nd Guards Mortar Brigade</Original>
+			<English>3nd Guards Mortar Brigade</English>
+			<Russian>3-я гвардейская минометная бригада</Russian>
+			<Chinesesimp>第三近卫迫击炮旅</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_PleaseSelect">
+			<Original>Please Select</Original>
+			<English>Please Select</English>
+			<Russian>Пожалуйста выберите</Russian>
+			<Chinesesimp>请选择</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Rocket">
+			<Original>Rocket(HE)</Original>
+			<English>Rocket(HE)</English>
+			<Russian>Ракета(фугасный)</Russian>
+			<Chinesesimp>火箭弹(HE)</Chinesesimp>
+		</Key>
+		<Key ID="STR_JZASS_Smoke">
+			<Original>Smoke</Original>
+			<English>Smoke</English>
+			<Russian>дымовая</Russian>
+			<Chinesesimp>烟雾弹</Chinesesimp>
 		</Key>
 		
 	</Package>
